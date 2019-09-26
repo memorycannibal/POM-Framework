@@ -30,9 +30,5 @@ def Driver(request):
             yield driver 
             driver.quit()   
 
-    # elif  browserArg == None:
-    #         driver = webdriver.Chrome()
-    #         yield driver
-    #         driver.quit()
     else: 
         raise Exception('invalid browser name')

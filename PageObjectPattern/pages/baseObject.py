@@ -1,6 +1,7 @@
 
-class BaseObjcet(object):
-
-    def __init__(self,Driver):
-        driver = Driver
+class BaseObject(object):
+    driver = None
+    
+    def __init__(self,driver):
+        self.driver = driver
 
